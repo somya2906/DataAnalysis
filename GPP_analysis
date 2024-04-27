@@ -1,0 +1,9 @@
+library(rio)
+library(dplyr)
+library(forcats)
+library(ggplot2)
+library(tidyr)
+library(stringr)
+
+# importing data
+PowerPlant <- import("global_power_plant_database.csv", na.strings=c(""," ","NA"))
